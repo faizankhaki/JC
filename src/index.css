@@ -1,0 +1,170 @@
+.carousel-item img {
+  height: 500px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover the whole area */
+}
+.carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Adjust text color as needed */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  margin: 0; /* Remove default margins */
+}
+
+.carousel-button {
+  position: absolute;
+  bottom: 20px; /* Adjust bottom position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+.line {
+  border-bottom: 1px solid #fff;
+}
+
+/* <div
+        className="card rounded-3 border-0 aos-init aos-animate"
+        data-aos="flip-right"
+        data-aos-duration="4000"
+      >
+        <img
+          src="./images/photo5.png"
+          className="card-img-top rounded-3"
+          alt="Fissure in Sandstone"
+          style={{ height: "40vh" }}
+          width="100px"
+        />
+        <div className="card-body">
+          <small
+            style={{ fontSize: "14px" }}
+            className="d-flex justify-content-between fw-medium"
+          >
+            4 days &amp; 3 nights{" "}
+            <span style={{ fontSize: "12px" }}>
+              <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
+                4.9 <span className="text-muted">(261)</span>
+              </i>
+            </span>
+          </small>
+          <p
+            className="card-title text-start text-dark"
+            style={{ fontSize: "15px" }}
+          >
+            Joy Honeymoon Package
+          </p>
+          <p
+            className="card-text p-0 mb-2 text-start rounded"
+            style={{ fontSize: "12px", backgroundColor: "#fffbf0" }}
+          >
+            <span className="fw-bold">3D </span> Srinagar{" "}
+            <span className="fw-bold">. 1D </span>Pahalgam
+            <span className="fw-bold">. 2D </span>Srinagar
+          </p>
+          <p
+            className="card-text p-0 mb-2 text-start rounded"
+            style={{ fontSize: "12px", backgroundColor: "#fffbf0" }}
+          >
+            <span className="fw-bold">
+              <i className="fa-solid fa-hotel"></i>{" "}
+            </span>{" "}
+            Hotel &nbsp; &nbsp; &nbsp;
+            <span className="fw-bold">
+              <i className="fa-solid fa-utensils"></i>
+            </span>{" "}
+            Food &nbsp; &nbsp; &nbsp;
+            <span className="fw-bold">
+              <i className="fa-solid fa-car"></i>{" "}
+            </span>{" "}
+            Transport
+          </p>
+          <h3
+            className="text-start text-light rounded-pill"
+            style={{
+              background: "linear-gradient(93deg,#ff7b26,#ec048c)",
+              fontSize: "9px",
+              cursor: "text",
+              fontWeight: "900",
+              width: "fit-content",
+              paddingRight: "10px",
+              paddingLeft: "10px",
+              height: "18px",
+              lineHeight: "18px",
+            }}
+          >
+            EARLY SUMMER SALE!
+          </h3>
+          <h5 className="fw-bolder text-start" style={{ fontSize: "18px" }}>
+            INR 7999{" "}
+            <small>
+              <s className="" style={{ fontSize: "14px" }}>
+                INR 9999
+              </s>
+            </small>
+            &nbsp;&nbsp;&nbsp;
+            <span>
+              <button
+                className="px-2 py-1 border-0 rounded text-success"
+                style={{
+                  fontSize: "9px",
+                  backgroundColor: "#E7F3EA",
+                  color: "#0BB22A",
+                }}
+              >
+                save INR 2000
+              </button>
+            </span>
+          </h5>
+          <div
+            className="d-flex justify-content-between"
+            style={{ alignSelf: "center" }}
+          >
+            <a
+              href="tel:9906786356"
+              className="btn"
+              style={{ borderColor: "#F37002", paddingTop: "8px" }}
+            >
+              <i
+                className="fa-solid fa-phone"
+                role="button"
+                style={{ color: "#F37002" }}
+              ></i>
+            </a>
+            <a
+              href="#"
+              className="text-capitalize btn text-white px-5 py-2 border rounded"
+              role="button"
+              style={{ backgroundColor: "#F37002" }}
+              onClick={() => setHead("Joy Honeymoon Package")}
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Request Callback
+            </a>
+          </div>
+        </div>
+        { try }
+        </div>*/
