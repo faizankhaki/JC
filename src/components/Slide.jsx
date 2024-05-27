@@ -244,7 +244,7 @@ export default function slider() {
         }}
       />
       {/* the card start from here  */}
-      <h1>hello</h1>
+
       <div className="row">
         <div className="col-md-4">
           {/* Existing card */}
@@ -557,6 +557,7 @@ export default function slider() {
       </div>
 
       {/* 2ndcard orange */}
+
       <div className="container rounded text-start p-3 d-flex flex-column flex-grow">
         <p
           id="gd"
@@ -568,328 +569,324 @@ export default function slider() {
         <small id="ll" className="fs-5 mb-4 mx-0" style={{ fontSize: "15px" }}>
           Tailor-Made Honeymoons Just For You
         </small>
-        <div className="d-flex flex-row flex-wrap justify-content-center ">
-          <div className="container  rounded  text-start d-flex flex-row flex-grow">
-            <div
-              className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
-              data-aos="flip-right"
-              data-aos-duration="4000"
-              style={{ width: "18rem" }}
-            >
-              <img
-                src="./images/clone60.avif"
-                className="card-img-top rounded-3"
-                alt="Fissure in Sandstone"
-                style={{ height: "40vh" }}
-              />
-              <div className="card-body">
-                <small
-                  className="d-flex justify-content-between fw-medium"
-                  style={{ fontSize: "14px" }}
-                >
-                  6 days &amp; 5 nights
-                  <span style={{ fontSize: "12px" }}>
-                    <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
-                      4.9 <span className="text-muted">(261)</span>
-                    </i>
-                  </span>
-                </small>
-                <p
-                  className="card-title text-start text-dark"
-                  style={{ fontSize: "15px" }}
-                >
-                  Kashmir Retreat | Romantic Escape to Doodhpathri
-                </p>
-                <p
-                  className="card-text p-0 mb-2 text-start rounded"
-                  style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
-                >
-                  <span className="fw-bold">3D </span> Srinagar{" "}
-                  <span className="fw-bold">. 1D </span>Pahalgam
-                  <span className="fw-bold">. 2D </span>Srinagar
-                </p>
-                <h3
-                  className="text-start text-light rounded-pill"
-                  style={{
-                    background: "linear-gradient(93deg,#ff7b26,#ec048c)",
-                    fontSize: "9px",
-                    cursor: "text",
-                    fontWeight: "900",
-                    width: "fit-content",
-                    paddingRight: "10px",
-                    paddingLeft: "10px",
-                    height: "18px",
-                    lineHeight: "18px",
-                  }}
-                >
-                  EARLY SUMMER SALE!
-                </h3>
-                <h5
-                  className="fw-bolder text-start"
-                  style={{ fontSize: "18px" }}
-                >
-                  INR 20,000{" "}
-                  <small>
-                    <s style={{ fontSize: "14px" }}>INR 28,986</s>
+        <div className="slide-swiper">
+          <div className="d-flex flex-row flex-wrap justify-content-center">
+            <div className="container rounded text-start d-flex flex-row flex-grow flex-wrap justify-content-center">
+              {/* <!-- Card 1 --> */}
+              <div
+                className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
+                data-aos="flip-right"
+                data-aos-duration="4000"
+                style={{ width: "18rem" }}
+              >
+                <img
+                  src="./images/clone60.avif"
+                  className="card-img-top rounded-3"
+                  alt="Fissure in Sandstone"
+                  style={{ height: "40vh" }}
+                />
+                <div className="card-body">
+                  <small
+                    className="d-flex justify-content-between fw-medium"
+                    style={{ fontSize: "14px" }}
+                  >
+                    6 days &amp; 5 nights
+                    <span style={{ fontSize: "12px" }}>
+                      <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
+                        4.9 <span className="text-muted">(261)</span>
+                      </i>
+                    </span>
                   </small>
-                  &nbsp;&nbsp;&nbsp;
-                  <span>
-                    <button
-                      className="px-2 py-1 border-0 rounded text-success"
+                  <p
+                    className="card-title text-start text-dark"
+                    style={{ fontSize: "15px" }}
+                  >
+                    Kashmir Retreat | Romantic Escape to Doodhpathri
+                  </p>
+                  <p
+                    className="card-text p-0 mb-2 text-start rounded"
+                    style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
+                  >
+                    <span className="fw-bold">3D </span> Srinagar{" "}
+                    <span className="fw-bold">. 1D </span>Pahalgam
+                    <span className="fw-bold">. 2D </span>Srinagar
+                  </p>
+                  <h3
+                    className="text-start text-light rounded-pill"
+                    style={{
+                      background: "linear-gradient(93deg,#ff7b26,#ec048c)",
+                      fontSize: "9px",
+                      cursor: "text",
+                      fontWeight: "900",
+                      width: "fit-content",
+                      paddingRight: "10px",
+                      paddingLeft: "10px",
+                      height: "18px",
+                      lineHeight: "18px",
+                    }}
+                  >
+                    EARLY SUMMER SALE!
+                  </h3>
+                  <h5
+                    className="fw-bolder text-start"
+                    style={{ fontSize: "18px" }}
+                  >
+                    INR 20,000{" "}
+                    <small>
+                      <s style={{ fontSize: "14px" }}>INR 28,986</s>
+                    </small>
+                    &nbsp;&nbsp;&nbsp;
+                    <span>
+                      <button
+                        className="px-2 py-1 border-0 rounded text-success"
+                        style={{
+                          fontSize: "9px",
+                          backgroundColor: "#E7F3EA",
+                          color: "#0BB22A",
+                        }}
+                      >
+                        save INR 8,986
+                      </button>
+                    </span>
+                  </h5>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <a
+                      href="tel/:1000000000"
+                      className="btn btn-outline-warning"
                       style={{
-                        fontSize: "9px",
-                        backgroundColor: "#E7F3EA",
-                        color: "#0BB22A",
+                        padding: "8px",
                       }}
                     >
-                      save INR 8,986
-                    </button>
-                  </span>
-                </h5>
-                <div
-                  className="d-flex justify-content-between"
-                  style={{ alignSelf: "center" }}
-                >
-                  <a
-                    href="tel/:1000000000"
-                    className="btn"
-                    style={{ borderColor: "#F37002", paddingTop: "8px" }}
-                  >
-                    <i
-                      className="fa-solid fa-phone "
+                      <i className="fa-solid fa-phone" role="button"></i>
+                    </a>
+                    <a
+                      href="#"
+                      className="btn text-white px-4 py-2"
                       role="button"
-                      style={{ color: "#F37002" }}
-                    ></i>
-                  </a>
-                  <a
-                    href="#"
-                    className="text-capitalize btn text-white px-5 py-2 border rounded"
-                    role="button"
-                    style={{ backgroundColor: "#F37002" }}
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                  >
-                    Request Callback
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* inside */}
-            <div
-              className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
-              data-aos="flip-right"
-              data-aos-duration="4000"
-              style={{ width: "18rem" }}
-            >
-              <img
-                src="./images/clone60.avif"
-                className="card-img-top rounded-3"
-                alt="Fissure in Sandstone"
-                style={{ height: "40vh" }}
-              />
-              <div className="card-body">
-                <small
-                  className="d-flex justify-content-between fw-medium"
-                  style={{ fontSize: "14px" }}
-                >
-                  6 days &amp; 5 nights
-                  <span style={{ fontSize: "12px" }}>
-                    <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
-                      4.9 <span className="text-muted">(261)</span>
-                    </i>
-                  </span>
-                </small>
-                <p
-                  className="card-title text-start text-dark"
-                  style={{ fontSize: "15px" }}
-                >
-                  Kashmir Retreat | Romantic Escape to Doodhpathri
-                </p>
-                <p
-                  className="card-text p-0 mb-2 text-start rounded"
-                  style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
-                >
-                  <span className="fw-bold">3D </span> Srinagar{" "}
-                  <span className="fw-bold">. 1D </span>Pahalgam
-                  <span className="fw-bold">. 2D </span>Srinagar
-                </p>
-                <h3
-                  className="text-start text-light rounded-pill"
-                  style={{
-                    background: "linear-gradient(93deg,#ff7b26,#ec048c)",
-                    fontSize: "9px",
-                    cursor: "text",
-                    fontWeight: "900",
-                    width: "fit-content",
-                    paddingRight: "10px",
-                    paddingLeft: "10px",
-                    height: "18px",
-                    lineHeight: "18px",
-                  }}
-                >
-                  EARLY SUMMER SALE!
-                </h3>
-                <h5
-                  className="fw-bolder text-start"
-                  style={{ fontSize: "18px" }}
-                >
-                  INR 20,000{" "}
-                  <small>
-                    <s style={{ fontSize: "14px" }}>INR 28,986</s>
-                  </small>
-                  &nbsp;&nbsp;&nbsp;
-                  <span>
-                    <button
-                      className="px-2 py-1 border-0 rounded text-success"
                       style={{
-                        fontSize: "9px",
-                        backgroundColor: "#E7F3EA",
-                        color: "#0BB22A",
+                        backgroundColor: "#F37002",
                       }}
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
                     >
-                      save INR 8,986
-                    </button>
-                  </span>
-                </h5>
-                <div
-                  className="d-flex justify-content-between"
-                  style={{ alignSelf: "center" }}
-                >
-                  <a
-                    href="tel/:1000000000"
-                    className="btn"
-                    style={{ borderColor: "#F37002", paddingTop: "8px" }}
-                  >
-                    <i
-                      className="fa-solid fa-phone "
-                      role="button"
-                      style={{ color: "#F37002" }}
-                    ></i>
-                  </a>
-                  <a
-                    href="#"
-                    className="text-capitalize btn text-white px-5 py-2 border rounded"
-                    role="button"
-                    style={{ backgroundColor: "#F37002" }}
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                  >
-                    Request Callback
-                  </a>
+                      Request Callback
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* last one */}
-            <div
-              className="card rounded-3 border-0 aos-init aos-animateme-3 mb-3"
-              data-aos="flip-right"
-              data-aos-duration="4000"
-              style={{ width: "18rem" }}
-            >
-              <img
-                src="./images/clone60.avif"
-                className="card-img-top rounded-3"
-                alt="Fissure in Sandstone"
-                style={{ height: "40vh" }}
-              />
-              <div className="card-body">
-                <small
-                  className="d-flex justify-content-between fw-medium"
-                  style={{ fontSize: "14px" }}
-                >
-                  6 days &amp; 5 nights
-                  <span style={{ fontSize: "12px" }}>
-                    <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
-                      4.9 <span className="text-muted">(261)</span>
-                    </i>
-                  </span>
-                </small>
-                <p
-                  className="card-title text-start text-dark"
-                  style={{ fontSize: "15px" }}
-                >
-                  Kashmir Retreat | Romantic Escape to Doodhpathri
-                </p>
-                <p
-                  className="card-text p-0 mb-2 text-start rounded"
-                  style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
-                >
-                  <span className="fw-bold">3D </span> Srinagar{" "}
-                  <span className="fw-bold">. 1D </span>Pahalgam
-                  <span className="fw-bold">. 2D </span>Srinagar
-                </p>
-                <h3
-                  className="text-start text-light rounded-pill"
-                  style={{
-                    background: "linear-gradient(93deg,#ff7b26,#ec048c)",
-                    fontSize: "9px",
-                    cursor: "text",
-                    fontWeight: "900",
-                    width: "fit-content",
-                    paddingRight: "10px",
-                    paddingLeft: "10px",
-                    height: "18px",
-                    lineHeight: "18px",
-                  }}
-                >
-                  EARLY SUMMER SALE!
-                </h3>
-                <h5
-                  className="fw-bolder text-start"
-                  style={{ fontSize: "18px" }}
-                >
-                  INR 20,000{" "}
-                  <small>
-                    <s style={{ fontSize: "14px" }}>INR 28,986</s>
+              {/* <!-- Card 2 (Duplicate of Card 1 with updated data if needed) --> */}
+              <div
+                className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
+                data-aos="flip-right"
+                data-aos-duration="4000"
+                style={{ width: "18rem" }}
+              >
+                <img
+                  src="./images/clone60.avif"
+                  className="card-img-top rounded-3"
+                  alt="Fissure in Sandstone"
+                  style={{ height: "40vh" }}
+                />
+                <div className="card-body">
+                  <small
+                    className="d-flex justify-content-between fw-medium"
+                    style={{ fontSize: "14px" }}
+                  >
+                    6 days &amp; 5 nights
+                    <span style={{ fontSize: "12px" }}>
+                      <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
+                        4.9 <span className="text-muted">(261)</span>
+                      </i>
+                    </span>
                   </small>
-                  &nbsp;&nbsp;&nbsp;
-                  <span>
-                    <button
-                      className="px-2 py-1 border-0 rounded text-success"
+                  <p
+                    className="card-title text-start text-dark"
+                    style={{ fontSize: "15px" }}
+                  >
+                    Kashmir Retreat | Romantic Escape to Doodhpathri
+                  </p>
+                  <p
+                    className="card-text p-0 mb-2 text-start rounded"
+                    style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
+                  >
+                    <span className="fw-bold">3D </span> Srinagar{" "}
+                    <span className="fw-bold">. 1D </span>Pahalgam
+                    <span className="fw-bold">. 2D </span>Srinagar
+                  </p>
+                  <h3
+                    className="text-start text-light rounded-pill"
+                    style={{
+                      background: "linear-gradient(93deg,#ff7b26,#ec048c)",
+                      fontSize: "9px",
+                      cursor: "text",
+                      fontWeight: "900",
+                      width: "fit-content",
+                      paddingRight: "10px",
+                      paddingLeft: "10px",
+                      height: "18px",
+                      lineHeight: "18px",
+                    }}
+                  >
+                    EARLY SUMMER SALE!
+                  </h3>
+                  <h5
+                    className="fw-bolder text-start"
+                    style={{ fontSize: "18px" }}
+                  >
+                    INR 20,000{" "}
+                    <small>
+                      <s style={{ fontSize: "14px" }}>INR 28,986</s>
+                    </small>
+                    &nbsp;&nbsp;&nbsp;
+                    <span>
+                      <button
+                        className="px-2 py-1 border-0 rounded text-success"
+                        style={{
+                          fontSize: "9px",
+                          backgroundColor: "#E7F3EA",
+                          color: "#0BB22A",
+                        }}
+                      >
+                        save INR 8,986
+                      </button>
+                    </span>
+                  </h5>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <a
+                      href="tel/:1000000000"
+                      className="btn btn-outline-warning"
                       style={{
-                        fontSize: "9px",
-                        backgroundColor: "#E7F3EA",
-                        color: "#0BB22A",
+                        padding: "8px",
                       }}
                     >
-                      save INR 8,986
-                    </button>
-                  </span>
-                </h5>
-                <div
-                  className="d-flex justify-content-between"
-                  style={{ alignSelf: "center" }}
-                >
-                  <a
-                    href="tel/:1000000000"
-                    className="btn"
-                    style={{ borderColor: "#F37002", paddingTop: "8px" }}
-                  >
-                    <i
-                      className="fa-solid fa-phone "
+                      <i className="fa-solid fa-phone" role="button"></i>
+                    </a>
+                    <a
+                      href="#"
+                      className="btn text-white px-4 py-2"
                       role="button"
-                      style={{ color: "#F37002" }}
-                    ></i>
-                  </a>
-                  <a
-                    href="#"
-                    className="text-capitalize btn text-white px-5 py-2 border rounded"
-                    role="button"
-                    style={{ backgroundColor: "#F37002" }}
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                  >
-                    Request Callback
-                  </a>
+                      style={{
+                        backgroundColor: "#F37002",
+                      }}
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      Request Callback
+                    </a>
+                  </div>
                 </div>
               </div>
+
+              {/* <!-- Card 3 --> */}
+              <div
+                className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
+                data-aos="flip-right"
+                data-aos-duration="4000"
+                style={{ width: "18rem" }}
+              >
+                <img
+                  src="./images/clone60.avif"
+                  className="card-img-top rounded-3"
+                  alt="Fissure in Sandstone"
+                  style={{ height: "40vh" }}
+                />
+                <div className="card-body">
+                  <small
+                    className="d-flex justify-content-between fw-medium"
+                    style={{ fontSize: "14px" }}
+                  >
+                    6 days &amp; 5 nights
+                    <span style={{ fontSize: "12px" }}>
+                      <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
+                        4.9 <span className="text-muted">(261)</span>
+                      </i>
+                    </span>
+                  </small>
+                  <p
+                    className="card-title text-start text-dark"
+                    style={{ fontSize: "15px" }}
+                  >
+                    Kashmir Retreat | Romantic Escape to Doodhpathri
+                  </p>
+                  <p
+                    className="card-text p-0 mb-2 text-start rounded"
+                    style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
+                  >
+                    <span className="fw-bold">3D </span> Srinagar{" "}
+                    <span className="fw-bold">. 1D </span>Pahalgam
+                    <span className="fw-bold">. 2D </span>Srinagar
+                  </p>
+                  <h3
+                    className="text-start text-light rounded-pill"
+                    style={{
+                      background: "linear-gradient(93deg,#ff7b26,#ec048c)",
+                      fontSize: "9px",
+                      cursor: "text",
+                      fontWeight: "900",
+                      width: "fit-content",
+                      paddingRight: "10px",
+                      paddingLeft: "10px",
+                      height: "18px",
+                      lineHeight: "18px",
+                    }}
+                  >
+                    EARLY SUMMER SALE!
+                  </h3>
+                  <h5
+                    className="fw-bolder text-start"
+                    style={{ fontSize: "18px" }}
+                  >
+                    INR 20,000{" "}
+                    <small>
+                      <s style={{ fontSize: "14px" }}>INR 28,986</s>
+                    </small>
+                    &nbsp;&nbsp;&nbsp;
+                    <span>
+                      <button
+                        className="px-2 py-1 border-0 rounded text-success"
+                        style={{
+                          fontSize: "9px",
+                          backgroundColor: "#E7F3EA",
+                          color: "#0BB22A",
+                        }}
+                      >
+                        save INR 8,986
+                      </button>
+                    </span>
+                  </h5>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <a
+                      href="tel/:1000000000"
+                      className="btn btn-outline-warning"
+                      style={{
+                        padding: "8px",
+                      }}
+                    >
+                      <i className="fa-solid fa-phone" role="button"></i>
+                    </a>
+                    <a
+                      href="#"
+                      className="btn text-white px-4 py-2"
+                      role="button"
+                      style={{
+                        backgroundColor: "#F37002",
+                      }}
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      Request Callback
+                    </a>
+                  </div>
+                </div>
+              </div>
+              {/* 
+            <!-- Card 4 --> */}
             </div>
           </div>
-
-          {/* cards end */}
         </div>
       </div>
+
       <hr
         style={{
           width: "60%",
@@ -1011,75 +1008,865 @@ export default function slider() {
         </div>
       </div>
       {/* googlereview2 */}
-      {/* <div className="row md-4 p-5 d-flex justify-content-center">
-        <div className="col-md-4 p-5 d-flex justify-content-end">
-          <div className="card rounded-3" data-aos="zoom-in">
-            <img
-              src="./images/clone63.jpg"
-              className="card-img-top w-100 rounded-3 img-fluid"
-              alt="Fissure in Sandstone"
-            />
+      <div className="container rounded text-start p-3 d-flex flex-column flex-grow">
+        <p
+          id="gd"
+          className="fs-4 fw-bold mx-0 p-0 mb-3"
+          style={{ fontSize: "25px", fontWeight: "600" }}
+        >
+          Honeymoon Special
+        </p>
+        <small id="ll" className="fs-5 mb-4 mx-0" style={{ fontSize: "15px" }}>
+          Tailor-Made Honeymoons Just For You
+        </small>
+        <div className="d-flex flex-row flex-wrap justify-content-center">
+          <div className="container rounded text-start d-flex flex-row flex-grow flex-wrap justify-content-center">
+            {/* <!-- Card 1 --> */}
+            <div
+              className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
+              data-aos="flip-right"
+              data-aos-duration="4000"
+              style={{ width: "18rem" }}
+            >
+              <img
+                src="./images/clone60.avif"
+                className="card-img-top rounded-3"
+                alt="Fissure in Sandstone"
+                style={{ height: "40vh" }}
+              />
+              <div className="card-body">
+                <small
+                  className="d-flex justify-content-between fw-medium"
+                  style={{ fontSize: "14px" }}
+                >
+                  6 days &amp; 5 nights
+                  <span style={{ fontSize: "12px" }}>
+                    <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
+                      4.9 <span className="text-muted">(261)</span>
+                    </i>
+                  </span>
+                </small>
+                <p
+                  className="card-title text-start text-dark"
+                  style={{ fontSize: "15px" }}
+                >
+                  Kashmir Retreat | Romantic Escape to Doodhpathri
+                </p>
+                <p
+                  className="card-text p-0 mb-2 text-start rounded"
+                  style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
+                >
+                  <span className="fw-bold">3D </span> Srinagar{" "}
+                  <span className="fw-bold">. 1D </span>Pahalgam
+                  <span className="fw-bold">. 2D </span>Srinagar
+                </p>
+                <h3
+                  className="text-start text-light rounded-pill"
+                  style={{
+                    background: "linear-gradient(93deg,#ff7b26,#ec048c)",
+                    fontSize: "9px",
+                    cursor: "text",
+                    fontWeight: "900",
+                    width: "fit-content",
+                    paddingRight: "10px",
+                    paddingLeft: "10px",
+                    height: "18px",
+                    lineHeight: "18px",
+                  }}
+                >
+                  EARLY SUMMER SALE!
+                </h3>
+                <h5
+                  className="fw-bolder text-start"
+                  style={{ fontSize: "18px" }}
+                >
+                  INR 20,000{" "}
+                  <small>
+                    <s style={{ fontSize: "14px" }}>INR 28,986</s>
+                  </small>
+                  &nbsp;&nbsp;&nbsp;
+                  <span>
+                    <button
+                      className="px-2 py-1 border-0 rounded text-success"
+                      style={{
+                        fontSize: "9px",
+                        backgroundColor: "#E7F3EA",
+                        color: "#0BB22A",
+                      }}
+                    >
+                      save INR 8,986
+                    </button>
+                  </span>
+                </h5>
+                <div className="d-flex justify-content-between align-items-center">
+                  <a
+                    href="tel/:1000000000"
+                    className="btn btn-outline-warning"
+                    style={{
+                      padding: "8px",
+                    }}
+                  >
+                    <i className="fa-solid fa-phone" role="button"></i>
+                  </a>
+                  <a
+                    href="#"
+                    className="btn text-white px-4 py-2"
+                    role="button"
+                    style={{
+                      backgroundColor: "#F37002",
+                    }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Request Callback
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Card 2 (Duplicate of Card 1 with updated data if needed) --> */}
+            <div
+              className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
+              data-aos="flip-right"
+              data-aos-duration="4000"
+              style={{ width: "18rem" }}
+            >
+              <img
+                src="./images/clone60.avif"
+                className="card-img-top rounded-3"
+                alt="Fissure in Sandstone"
+                style={{ height: "40vh" }}
+              />
+              <div className="card-body">
+                <small
+                  className="d-flex justify-content-between fw-medium"
+                  style={{ fontSize: "14px" }}
+                >
+                  6 days &amp; 5 nights
+                  <span style={{ fontSize: "12px" }}>
+                    <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
+                      4.9 <span className="text-muted">(261)</span>
+                    </i>
+                  </span>
+                </small>
+                <p
+                  className="card-title text-start text-dark"
+                  style={{ fontSize: "15px" }}
+                >
+                  Kashmir Retreat | Romantic Escape to Doodhpathri
+                </p>
+                <p
+                  className="card-text p-0 mb-2 text-start rounded"
+                  style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
+                >
+                  <span className="fw-bold">3D </span> Srinagar{" "}
+                  <span className="fw-bold">. 1D </span>Pahalgam
+                  <span className="fw-bold">. 2D </span>Srinagar
+                </p>
+                <h3
+                  className="text-start text-light rounded-pill"
+                  style={{
+                    background: "linear-gradient(93deg,#ff7b26,#ec048c)",
+                    fontSize: "9px",
+                    cursor: "text",
+                    fontWeight: "900",
+                    width: "fit-content",
+                    paddingRight: "10px",
+                    paddingLeft: "10px",
+                    height: "18px",
+                    lineHeight: "18px",
+                  }}
+                >
+                  EARLY SUMMER SALE!
+                </h3>
+                <h5
+                  className="fw-bolder text-start"
+                  style={{ fontSize: "18px" }}
+                >
+                  INR 20,000{" "}
+                  <small>
+                    <s style={{ fontSize: "14px" }}>INR 28,986</s>
+                  </small>
+                  &nbsp;&nbsp;&nbsp;
+                  <span>
+                    <button
+                      className="px-2 py-1 border-0 rounded text-success"
+                      style={{
+                        fontSize: "9px",
+                        backgroundColor: "#E7F3EA",
+                        color: "#0BB22A",
+                      }}
+                    >
+                      save INR 8,986
+                    </button>
+                  </span>
+                </h5>
+                <div className="d-flex justify-content-between align-items-center">
+                  <a
+                    href="tel/:1000000000"
+                    className="btn btn-outline-warning"
+                    style={{
+                      padding: "8px",
+                    }}
+                  >
+                    <i className="fa-solid fa-phone" role="button"></i>
+                  </a>
+                  <a
+                    href="#"
+                    className="btn text-white px-4 py-2"
+                    role="button"
+                    style={{
+                      backgroundColor: "#F37002",
+                    }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Request Callback
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* <!-- Card 3 --> */}
+            <div
+              className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
+              data-aos="flip-right"
+              data-aos-duration="4000"
+              style={{ width: "18rem" }}
+            >
+              <img
+                src="./images/clone60.avif"
+                className="card-img-top rounded-3"
+                alt="Fissure in Sandstone"
+                style={{ height: "40vh" }}
+              />
+              <div className="card-body">
+                <small
+                  className="d-flex justify-content-between fw-medium"
+                  style={{ fontSize: "14px" }}
+                >
+                  6 days &amp; 5 nights
+                  <span style={{ fontSize: "12px" }}>
+                    <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
+                      4.9 <span className="text-muted">(261)</span>
+                    </i>
+                  </span>
+                </small>
+                <p
+                  className="card-title text-start text-dark"
+                  style={{ fontSize: "15px" }}
+                >
+                  Kashmir Retreat | Romantic Escape to Doodhpathri
+                </p>
+                <p
+                  className="card-text p-0 mb-2 text-start rounded"
+                  style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
+                >
+                  <span className="fw-bold">3D </span> Srinagar{" "}
+                  <span className="fw-bold">. 1D </span>Pahalgam
+                  <span className="fw-bold">. 2D </span>Srinagar
+                </p>
+                <h3
+                  className="text-start text-light rounded-pill"
+                  style={{
+                    background: "linear-gradient(93deg,#ff7b26,#ec048c)",
+                    fontSize: "9px",
+                    cursor: "text",
+                    fontWeight: "900",
+                    width: "fit-content",
+                    paddingRight: "10px",
+                    paddingLeft: "10px",
+                    height: "18px",
+                    lineHeight: "18px",
+                  }}
+                >
+                  EARLY SUMMER SALE!
+                </h3>
+                <h5
+                  className="fw-bolder text-start"
+                  style={{ fontSize: "18px" }}
+                >
+                  INR 20,000{" "}
+                  <small>
+                    <s style={{ fontSize: "14px" }}>INR 28,986</s>
+                  </small>
+                  &nbsp;&nbsp;&nbsp;
+                  <span>
+                    <button
+                      className="px-2 py-1 border-0 rounded text-success"
+                      style={{
+                        fontSize: "9px",
+                        backgroundColor: "#E7F3EA",
+                        color: "#0BB22A",
+                      }}
+                    >
+                      save INR 8,986
+                    </button>
+                  </span>
+                </h5>
+                <div className="d-flex justify-content-between align-items-center">
+                  <a
+                    href="tel/:1000000000"
+                    className="btn btn-outline-warning"
+                    style={{
+                      padding: "8px",
+                    }}
+                  >
+                    <i className="fa-solid fa-phone" role="button"></i>
+                  </a>
+                  <a
+                    href="#"
+                    className="btn text-white px-4 py-2"
+                    role="button"
+                    style={{
+                      backgroundColor: "#F37002",
+                    }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Request Callback
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* 
+            <!-- Card 4 --> */}
+          </div>
+        </div>
+      </div>
+      {/* photogall */}
+      <div className="container rounded text-start p-3 d-flex flex-column flex-grow">
+        <p
+          id="gd"
+          className="fs-4 fw-bold mx-0 p-0 mb-3"
+          style={{ fontSize: "25px", fontWeight: "600" }}
+        >
+          Honeymoon Special
+        </p>
+        <small id="ll" className="fs-5 mb-4 mx-0" style={{ fontSize: "15px" }}>
+          Tailor-Made Honeymoons Just For You
+        </small>
+        <div className="d-flex flex-row flex-wrap justify-content-center">
+          <div className="container rounded text-start d-flex flex-row flex-grow flex-wrap justify-content-center">
+            {/* Card 1 */}
+            <div
+              className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
+              data-aos="flip-right"
+              data-aos-duration="4000"
+              style={{ width: "18rem" }}
+            >
+              <img
+                src="./images/clone60.avif"
+                className="card-img-top rounded-3"
+                alt="Fissure in Sandstone"
+                style={{ height: "40vh" }}
+              />
+              <div className="card-body">
+                <small
+                  className="d-flex justify-content-between fw-medium"
+                  style={{ fontSize: "14px" }}
+                >
+                  6 days &amp; 5 nights
+                  <span style={{ fontSize: "12px" }}>
+                    <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
+                      4.9 <span className="text-muted">(261)</span>
+                    </i>
+                  </span>
+                </small>
+                <p
+                  className="card-title text-start text-dark"
+                  style={{ fontSize: "15px" }}
+                >
+                  Kashmir Retreat | Romantic Escape to Doodhpathri
+                </p>
+                <p
+                  className="card-text p-0 mb-2 text-start rounded"
+                  style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
+                >
+                  3D Srinagar . 1D Pahalgam . 2D Srinagar
+                </p>
+                <h3
+                  className="text-start text-light rounded-pill"
+                  style={{
+                    background: "linear-gradient(93deg,#ff7b26,#ec048c)",
+                    fontSize: "9px",
+                    cursor: "text",
+                    fontWeight: "900",
+                    width: "fit-content",
+                    paddingRight: "10px",
+                    paddingLeft: "10px",
+                    height: "18px",
+                    lineHeight: "18px",
+                  }}
+                >
+                  EARLY SUMMER SALE!
+                </h3>
+                <h5
+                  className="fw-bolder text-start"
+                  style={{ fontSize: "18px" }}
+                >
+                  INR 20,000{" "}
+                  <small>
+                    <s style={{ fontSize: "14px" }}>INR 28,986</s>
+                  </small>
+                  &nbsp;&nbsp;&nbsp;
+                  <span>
+                    <button
+                      className="px-2 py-1 border-0 rounded text-success"
+                      style={{
+                        fontSize: "9px",
+                        backgroundColor: "#E7F3EA",
+                        color: "#0BB22A",
+                      }}
+                    >
+                      save INR 8,986
+                    </button>
+                  </span>
+                </h5>
+                <div className="d-flex justify-content-between align-items-center">
+                  <a
+                    href="tel/:1000000000"
+                    className="btn btn-outline-warning"
+                    style={{
+                      padding: "8px",
+                    }}
+                  >
+                    <i className="fa-solid fa-phone" role="button"></i>
+                  </a>
+                  <a
+                    href="#"
+                    className="btn text-white px-4 py-2"
+                    role="button"
+                    style={{
+                      backgroundColor: "#F37002",
+                    }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Request Callback
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div
+              className="card rounded-3 border-0 aos-init aos-animate me-3 mb-3"
+              data-aos="flip-right"
+              data-aos-duration="4000"
+              style={{ width: "18rem" }}
+            >
+              <img
+                src="./images/clone60.avif"
+                className="card-img-top rounded-3"
+                alt="Fissure in Sandstone"
+                style={{ height: "40vh" }}
+              />
+              <div className="card-body">
+                <small
+                  className="d-flex justify-content-between fw-medium"
+                  style={{ fontSize: "14px" }}
+                >
+                  6 days &amp; 5 nights
+                  <span style={{ fontSize: "12px" }}>
+                    <i className="rounded-pill px-2 py-2 fa-solid fa-star text-success">
+                      4.9 <span className="text-muted">(261)</span>
+                    </i>
+                  </span>
+                </small>
+                <p
+                  className="card-title text-start text-dark"
+                  style={{ fontSize: "15px" }}
+                >
+                  Kashmir Retreat | Romantic Escape to Doodhpathri
+                </p>
+                <p
+                  className="card-text p-0 mb-2 text-start rounded"
+                  style={{ fontSize: "12px", backgroundColor: "#FFFBF0" }}
+                >
+                  3D Srinagar . 1D Pahalgam . 2D Srinagar
+                </p>
+                <h3
+                  className="text-start text-light rounded-pill"
+                  style={{
+                    background: "linear-gradient(93deg,#ff7b26,#ec048c)",
+                    fontSize: "9px",
+                    cursor: "text",
+                    fontWeight: "900",
+                    width: "fit-content",
+                    paddingRight: "10px",
+                    paddingLeft: "10px",
+                    height: "18px",
+                    lineHeight: "18px",
+                  }}
+                >
+                  EARLY SUMMER SALE!
+                </h3>
+                <h5
+                  className="fw-bolder text-start"
+                  style={{ fontSize: "18px" }}
+                >
+                  INR 20,000{" "}
+                  <small>
+                    <s style={{ fontSize: "14px" }}>INR 28,986</s>
+                  </small>
+                  &nbsp;&nbsp;&nbsp;
+                  <span>
+                    <button
+                      className="px-2 py-1 border-0 rounded text-success"
+                      style={{
+                        fontSize: "9px",
+                        backgroundColor: "#E7F3EA",
+                        color: "#0BB22A",
+                      }}
+                    >
+                      save INR 8,986
+                    </button>
+                  </span>
+                </h5>
+                <div className="d-flex justify-content-between align-items-center">
+                  <a
+                    href="tel/:1000000000"
+                    className="btn btn-outline-warning"
+                    style={{
+                      padding: "8px",
+                    }}
+                  >
+                    <i className="fa-solid fa-phone" role="button"></i>
+                  </a>
+                  <a
+                    href="#"
+                    className="btn text-white px-4 py-2"
+                    role="button"
+                    style={{
+                      backgroundColor: "#F37002",
+                    }}
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Request Callback
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Add more cards here in the same format */}
           </div>
         </div>
 
-        <div className="col-md-3">
-          <div className="grid-container">
-            <div className="grid-item">
-              <div
-                className="card rounded-3"
-                data-aos="flip-left"
-                data-aos-duration="4000"
-              >
-                <img
-                  src="./images/clone63.jpg"
-                  className="rounded-3 img-fluid"
-                  alt=""
-                />
+        {/* Joy Tour Reviews Section */}
+        <div className="container mt-5 text-center">
+          <h3>
+            Joy <span style={{ color: "#F37002" }}>Tour Reviews</span>
+          </h3>
+          <div className="sk-ww-google-reviews" data-embed-id="25414003">
+            <div className="row">
+              <div className="col-md-7">
+                <div
+                  className="card rounded-3 aos-init aos-animate"
+                  data-aos="zoom-in"
+                  data-aos-duration="4000"
+                >
+                  <img
+                    src="./images/clone72.jpg"
+                    className="card-img-top w-100 rounded-3"
+                    alt="Fissure in Sandstone"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="grid-item">
-              <div
-                className="card rounded-3"
-                data-aos="flip-left"
-                data-aos-duration="4000"
-              >
-                <img
-                  src="./images/clone63.jpg"
-                  className="rounded-3 img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="grid-item">
-              <div
-                className="card rounded-3"
-                data-aos="flip-left"
-                data-aos-duration="4000"
-              >
-                <img
-                  src="./images/clone63.jpg"
-                  className="rounded-3 img-fluid"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="grid-item">
-              <div
-                className="card rounded-3"
-                data-aos="flip-left"
-                data-aos-duration="4000"
-              >
-                <img
-                  src="./images/clone63.jpg"
-                  className="rounded-3 img-fluid"
-                  alt=""
-                />
+              <div className="col-md-5">
+                <div className="d-flex justify-content-around my-1">
+                  <div
+                    className="card rounded-3 aos-init aos-animate"
+                    data-aos="flip-left"
+                    data-aos-duration="4000"
+                  >
+                    <img
+                      src="./images/clone71.jpg"
+                      className="rounded-3"
+                      alt=""
+                      style={{ height: "150px", width: "150px" }}
+                    />
+                  </div>
+                  <div
+                    className="card rounded-3 aos-init aos-animate"
+                    data-aos="flip-left"
+                    data-aos-duration="4000"
+                  >
+                    <img
+                      src="./images/clone73.jpg"
+                      className="rounded-3"
+                      alt=""
+                      style={{ height: "150px", width: "150px" }}
+                    />
+                  </div>
+                </div>
+                <div className="d-flex justify-content-around my-1">
+                  <div
+                    className="card rounded-3 aos-init aos-animate"
+                    data-aos="flip-left"
+                    data-aos-duration="4000"
+                  >
+                    <img
+                      src="./images/clone70.jpg"
+                      alt=""
+                      className="rounded-3"
+                      style={{ height: "150px", width: "150px" }}
+                    />
+                  </div>
+                  <div
+                    className="card rounded-3 aos-init aos-animate"
+                    data-aos="flip-left"
+                    data-aos-duration="4000"
+                  >
+                    <img
+                      src="./images/clone72.jpg"
+                      alt=""
+                      className="rounded-3"
+                      style={{ height: "150px", width: "150px" }}
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
+      {/* places */}
+      <div className="container row mx-auto deals">
+        <p className="fs-4 fw-bold text-secondary">
+          Popular Kashmir Attractions
+        </p>
+        <div className="d-flex flex-row flex-wrap justify-content-between">
+          <div className="col-md-5 my-3">
+            <div
+              className="card border-0 rounded-3 aos-init aos-animate"
+              data-aos="zoom-in-up"
+              data-aos-duration="4000"
+            >
+              <img
+                className="card-img-top rounded-3"
+                src="./images/clone74.avif"
+                alt="Card image"
+                style={{ height: "280px" }}
+              />
+              <div
+                className="card-img-overlay text-white d-flex flex-column justify-content-end rounded-3 border-0"
+                style={{
+                  background: "rgba(0, 0, 0, 0.2)",
+                  backdropFilter: "blur(0px)",
+                  WebkitBackdropFilter: "blur(0px)",
+                }}
+              >
+                <h4
+                  className="card-title fw-bolder"
+                  style={{
+                    width: "fit-content",
+                    borderBottom: "2px solid#F37002",
+                  }}
+                >
+                  DAL&nbsp;LAKE
+                </h4>
+                <p className="card-text fw-bold">
+                  Known to be "The Jewel of Srinagar", Dal Lake spreads across
+                  an area of around 26 square kilometers and is one of the major
+                  attractions included in our Kashmir tour packages.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Repeat the same structure for other cards */}
+          <div className="col-md-5 my-3">
+            <div
+              className="card border-0 rounded-3 aos-init aos-animate"
+              data-aos="zoom-in-up"
+              data-aos-duration="4000"
+            >
+              <img
+                className="card-img-top rounded-3"
+                src="./images/clone75.avif"
+                alt="Card image"
+                style={{ height: "280px" }}
+              />
+              <div
+                className="card-img-overlay text-white d-flex flex-column justify-content-end rounded-3 border-0"
+                style={{
+                  background: "rgba(0, 0, 0, 0.2)",
+                  backdropFilter: "blur(0px)",
+                  WebkitBackdropFilter: "blur(0px)",
+                }}
+              >
+                <h4
+                  className="card-title fw-bolder"
+                  style={{
+                    width: "fit-content",
+                    borderBottom: "2px solid#F37002",
+                  }}
+                >
+                  SHANKARACHARYA &nbsp; TEMPLE
+                </h4>
+                <p className="card-text fw-bold">
+                  The Shankaracharya Temple, located on the Shankaracharya Hill
+                  in Srinagar, is a prominent religious site to visit with our
+                  Kashmir tour packages.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-5 my-3">
+            <div
+              className="card border-0 rounded-3 aos-init aos-animate"
+              data-aos="zoom-in-up"
+              data-aos-duration="4000"
+            >
+              <img
+                className="card-img-top rounded-3"
+                src="./images/clone21.avif"
+                alt="Card image"
+                style={{ height: "280px" }}
+              />
+              <div
+                className="card-img-overlay text-white d-flex flex-column justify-content-end rounded-3 border-0"
+                style={{
+                  background: "rgba(0, 0, 0, 0.2)",
+                  backdropFilter: "blur(0px)",
+                  WebkitBackdropFilter: "blur(0px)",
+                }}
+              >
+                <h4
+                  className="card-title fw-bolder"
+                  style={{
+                    width: "fit-content",
+                    borderBottom: "2px solid#F37002",
+                  }}
+                >
+                  TULIP &nbsp;GARDEN
+                </h4>
+                <p className="card-text fw-bold">
+                  Opened for public in the year 2007, the Indira Gandhi Memorial
+                  Tulip Garden was built with the aim of improving floriculture
+                  as well as tourism in Kashmir.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-5 my-3">
+            <div
+              className="card border-0 rounded-3 aos-init aos-animate"
+              data-aos="zoom-in-up"
+              data-aos-duration="4000"
+            >
+              <img
+                className="card-img-top rounded-3"
+                src="./images/clone76.avif"
+                alt="Card image"
+                style={{ height: "280px" }}
+              />
+              <div
+                className="card-img-overlay text-white d-flex flex-column justify-content-end rounded-3 border-0"
+                style={{
+                  background: "rgba(0, 0, 0, 0.2)",
+                  backdropFilter: "blur(0px)",
+                  WebkitBackdropFilter: "blur(0px)",
+                }}
+              >
+                <h4
+                  className="card-title fw-bolder"
+                  style={{
+                    width: "fit-content",
+                    borderBottom: "2px solid#F37002",
+                  }}
+                >
+                  APHARWAT &nbsp; PEAK
+                </h4>
+                <p className="card-text fw-bold">
+                  Located at a height of 4,200 m above sea level, Apharwat Peak
+                  is one of the most significant places in Gulmarg that
+                  attributes to the beauty of this attraction.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-5 my-3">
+            <div
+              className="card border-0 rounded-3 aos-init aos-animate"
+              data-aos="zoom-in-up"
+              data-aos-duration="4000"
+            >
+              <img
+                className="card-img-top rounded-3"
+                src="./images/clone10.avif"
+                alt="Card image"
+                style={{ height: "280px" }}
+              />
+              <div
+                className="card-img-overlay text-white d-flex flex-column justify-content-end rounded-3 border-0"
+                style={{
+                  background: "rgba(0, 0, 0, 0.2)",
+                  backdropFilter: "blur(0px)",
+                  WebkitBackdropFilter: "blur(0px)",
+                }}
+              >
+                <h4
+                  className="card-title fw-bolder"
+                  style={{
+                    width: "fit-content",
+                    borderBottom: "2px solid#F37002",
+                  }}
+                >
+                  GULMARG &nbsp;GONDOLA
+                </h4>
+                <p className="card-text fw-bold">
+                  Gulmarg Gondola is the second highest and second longest cable
+                  car ride in the world.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-5 my-3">
+            <div
+              className="card border-0 rounded-3 aos-init aos-animate"
+              data-aos="zoom-in-up"
+              data-aos-duration="4000"
+            >
+              <img
+                className="card-img-top rounded-3"
+                src="./images/clone77.avif"
+                alt="Card image"
+                style={{ height: "280px" }}
+              />
+              <div
+                className="card-img-overlay text-white d-flex flex-column justify-content-end rounded-3 border-0"
+                style={{
+                  background: "rgba(0, 0, 0, 0.2)",
+                  backdropFilter: "blur(0px)",
+                  WebkitBackdropFilter: "blur(0px)",
+                }}
+              >
+                <h4
+                  className="card-title fw-bolder"
+                  style={{
+                    width: "fit-content",
+                    borderBottom: "2px solid#F37002",
+                  }}
+                >
+                  MUGHAL &nbsp;GARDEN
+                </h4>
+                <p className="card-text fw-bold">
+                  Forming the largest garden of the 3 breathtaking Mughal
+                  Gardens, the amazingly laid out Shalimar Bagh makes for one of
+                  the most sublime places to see in Srinagar
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-5 my-3"></div>
+          <div className="col-md-5 my-3"></div>
+          {/* ... */}
+        </div>
+      </div>
       {/* after the  */}
       <hr
         style={{
@@ -1088,32 +1875,42 @@ export default function slider() {
           borderTop: "1px solid #000000",
         }}
       />
-      <div class="accordion mt-5 p-5" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">Kashmir Tour FAQs</h2>
+      <div
+        className="accordion mt-5 p-5"
+        id="accordionPanelsStayOpenExample"
+        style={{ backgroundColor: "#f8f9fa" }}
+      >
+        <div className="accordion-item">
+          <h2
+            className="accordion-header"
+            style={{ fontSize: "24px", fontWeight: "bold" }}
+          >
+            Kashmir Tour FAQs
+          </h2>
           <div
             id="panelsStayOpen-collapseOne"
-            class="accordion-collapse collapse show"
+            className="accordion-collapse collapse show"
           ></div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
+        <div className="accordion-item">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseTwo"
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseTwo"
+              style={{ fontSize: "18px" }}
             >
               How much will a Kashmir trip cost?
             </button>
           </h2>
           <div
             id="panelsStayOpen-collapseTwo"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               The cost of Kashmir package typically ranges between INR 17,000 to
               INR 40,000 per person for a 5-day trip. This cost varies according
               to the accommodation type, transportation, season, and included
@@ -1126,24 +1923,25 @@ export default function slider() {
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
+        <div className="accordion-item">
+          <h2 className="accordion-header">
             <button
-              class="accordion-button collapsed"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseThree"
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseThree"
+              style={{ fontSize: "18px" }}
             >
               How can I go to Kashmir on a low budget
             </button>
           </h2>
           <div
             id="panelsStayOpen-collapseThree"
-            class="accordion-collapse collapse"
+            className="accordion-collapse collapse"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               To visit Kashmir on a low budget, choose a{" "}
               <strong>Jammu Kashmir holiday package</strong> from Thrillophilia,
               known for affordable yet enriching travel experiences. The
